@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<HTML lang="en">
+
+ <HEAD>
+     <META charset="UTF-8">
+     <META name="viewport" content="width=device-width, initial-scale=1.0">
+     <META http-equiv="refresh" content="1" >
+     <TITLE>Atomic Generator</TITLE>
+
+     <LINK rel="stylesheet" type="text/css" href="interface.css" />
+ 
+ </HEAD>
+
+ <BODY>
+
+    <P><SUB>You have </SUB><P2 id="IdElectrons">Number of Electrons</P2><SUB> Electrons</SUB></P>
+    <P><SUB>You have </SUB><P2 id="IdElectronGenerators">Number of ElectronGenerators</P2><SUB> ElectronGenerators</SUB></P>
+    <BR>
+    <BUTTON type="button" onclick="ElectronClick(1);document.getElementById('IdElectronsPerClick').innerHTML = gameData.ElectronsPerClick;" >Generate Electron by <P id="IdElectronsPerClick">ElectronPerClick</P></BUTTON>
+    <BUTTON type="button" onclick="ElectronGeneratorBuy(1);document.getElementById('IdElectronGeneratorCost') = gameData.ElectronGeneratorCost">Buy Electron Generator with the cost of <P2 id="ElectronGeneratorCost">ElectronGeneratorCost</P2></BUTTON>
+    <SCRIPT type="text/javascript" charset="utf-8" src="main.js">
+
+    </SCRIPT>
+
+ </BODY>
+
+</HTML>
